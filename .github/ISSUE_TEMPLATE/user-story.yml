@@ -1,0 +1,38 @@
+name: História de usuário
+description: Item de product backlog (MVP)
+title: "[História] "
+labels: ["historia"]
+body:
+  - type: dropdown
+    id: modulo
+    attributes:
+      label: Módulo da ementa
+      options:
+        - modulo-1-ux
+        - modulo-2-prototipo
+        - modulo-3-frontend
+        - modulo-4-backend
+        - modulo-5-qualidade
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: História
+      description: "Como [persona], quero [ação] para [benefício]."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notas
+      description: Fora de escopo, dependências, vínculo com o PI I

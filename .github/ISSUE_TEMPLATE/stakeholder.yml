@@ -1,0 +1,33 @@
+name: Stakeholder
+description: Entrevista, reunião ou oficina com envolvidos
+title: "[Stakeholder] "
+labels: ["stakeholder"]
+body:
+  - type: dropdown
+    id: publico
+    attributes:
+      label: Público
+      options:
+        - Professor
+        - SEBRAE
+        - Diarista
+        - Contratante
+        - Evento / oficina
+        - Outro
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: Data prevista
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+    validations:
+      required: true
+  - type: textarea
+    id: ata
+    attributes:
+      label: Link ou caminho da ata
+      placeholder: docs/stakeholders/atas/

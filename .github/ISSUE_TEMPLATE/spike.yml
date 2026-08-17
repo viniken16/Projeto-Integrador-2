@@ -1,0 +1,21 @@
+name: Spike
+description: Pesquisa técnica ou de UX com tempo limitado
+title: "[Spike] "
+labels: ["spike"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Pergunta a responder
+    validations:
+      required: true
+  - type: input
+    id: timebox
+    attributes:
+      label: Timebox
+      placeholder: "ex.: 1 reunião / 4 horas"
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado esperado
+      description: ADR, protótipo, ou issue de implementação

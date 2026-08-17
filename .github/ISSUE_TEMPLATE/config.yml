@@ -1,0 +1,6 @@
+name: Issue templates
+blank_issues_enabled: true
+contact_links:
+  - name: Documentação do repositório
+    url: https://github.com/viniken16/Projeto-Integrador-2#readme
+    about: README, EAP e backlog do PI II

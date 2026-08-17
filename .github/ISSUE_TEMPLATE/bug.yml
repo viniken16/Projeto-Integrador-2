@@ -1,0 +1,25 @@
+name: Bug
+description: Comportamento incorreto no MVP
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamento atual
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Como reproduzir
+      value: |
+        1.
+        2.
+        3.
